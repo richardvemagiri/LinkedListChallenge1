@@ -1,0 +1,9 @@
+
+public class Song {
+	
+	private String Title;
+	private String Duration;
+	
+	
+	
+}
