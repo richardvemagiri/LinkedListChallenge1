@@ -1,0 +1,21 @@
+import java.util.LinkedList;
+
+
+public class Playlist {
+	
+	LinkedList<Song> songs = new LinkedList<Song>();
+	
+	public LinkedList<Song> getSongs() {
+		return songs;
+	}
+
+	public void setSongs(Song song) {
+		//if "song" exists in any album, then add the song to playlist
+		this.songs.add(songs);
+	}
+
+
+	
+	
+
+}
